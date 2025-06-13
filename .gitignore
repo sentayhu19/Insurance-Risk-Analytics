@@ -193,4 +193,8 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-/data
+/data/*
+!/data/*.dvc
+!/data/.gitignore
+
+/data-storage
