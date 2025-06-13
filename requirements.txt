@@ -11,3 +11,6 @@ tqdm==4.66.4
 # Data version control for reproducible pipelines
 dvc==3.48.4
 
+
+ hydra-core 
+ antlr4-python3-runtime
