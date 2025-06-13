@@ -27,6 +27,8 @@ jobs:
         pip install pytest pytest-cov
 
     - name: 🧪 Run tests with pytest
+      env:
+        PYTHONPATH: ${{ github.workspace }}
       run: |
         pytest --cov=.
 
