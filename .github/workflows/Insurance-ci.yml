@@ -1,4 +1,4 @@
-name: Python CI/CD
+name: Insurance Risk Analytics CI/CD
 
 on:
   push:
